@@ -1,0 +1,19 @@
+{
+	"schemaVersion": 1,
+	"id": "aimoderator",
+	"version": "${version}",
+	"name": "AI Moderator Helper",
+	"description": "Client-side helper for chat moderators: analyzes player chat with an AI and suggests mute-only punishments. Confirm with .m c",
+	"authors": ["Fix"],
+	"license": "MIT",
+	"environment": "client",
+	"entrypoints": {
+		"client": ["com.aimod.AiModerator"]
+	},
+	"depends": {
+		"fabricloader": ">=0.16.0",
+		"fabric-api": "*",
+		"minecraft": "~1.21.4",
+		"java": ">=21"
+	}
+}
